@@ -23,11 +23,11 @@ newgrp libvirt
 ```
 
 ## Enable Services
-## Systemd
+## Systemd (Arch)
 ```
 sudo systemctl enable libvirtd
 ```
-## dinit
+## dinit (Artix)
 ```
 sudo dinitctl enable libvirtd
 ```
