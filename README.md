@@ -9,7 +9,7 @@ I use dinit, but there should be a package for your init system.
 sudo pacman -S libvirt-dinit
 ```
 ## Edit files
-Edit ```/etc/libvirt/libvirtd.conf``` (Change the following Lines)
+Edit ```/etc/libvirt/libvirtd.conf``` (Uncomment the following Lines)
 ```
 unix_sock_group = "libvirt"
 unix_sock_rw_perms = "0770"
