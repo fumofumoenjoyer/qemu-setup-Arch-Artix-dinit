@@ -4,6 +4,7 @@
 sudo pacman -Syyu dnsmasq virt-manager qemu-full libvirt
 ```
 ## For Artix also install the respective service.
+I use dinit, but there should be a package for your init system.
 ```
 sudo pacman -S libvirt-dinit
 ```
