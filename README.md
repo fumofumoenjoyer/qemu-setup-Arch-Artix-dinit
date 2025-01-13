@@ -32,4 +32,4 @@ sudo systemctl enable libvirtd
 sudo dinitctl enable libvirtd
 ```
 
-## Reboot and done
+## Reboot and open virtmanager to manage your VMs
