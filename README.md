@@ -25,6 +25,7 @@ newgrp libvirt
 ## Enable Services
 ## Systemd (Arch)
 ```
+sudo systemctl enable libvirtd
 sudo systemctl enable virtqemud
 sudo systemctl enable virtxend
 sudo systemctl enable virtlxcd
