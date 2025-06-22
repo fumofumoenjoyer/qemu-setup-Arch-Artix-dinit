@@ -25,9 +25,19 @@ newgrp libvirt
 ## Enable Services
 ## Systemd (Arch)
 ```
-sudo systemctl enable libvirtd
+sudo systemctl enable virtqemud
+sudo systemctl enable virtxend
+sudo systemctl enable virtlxcd
+sudo systemctl enable virtbhyved
+sudo systemctl enable virtvboxd
+sudo systemctl enable virtinterfaced
+sudo systemctl enable virtnetworkd
+sudo systemctl enable virtnodedevd
+sudo systemctl enable virtnwfilterd
+sudo systemctl enable virtsecretd
+sudo systemctl enable virtstoraged
 ```
-## dinit (Artix)
+## dinit (Artix) (BROKEN)
 ```
 sudo dinitctl enable libvirtd
 ```
